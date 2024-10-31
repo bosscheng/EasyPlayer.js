@@ -2,7 +2,7 @@
 
 ## 简介
 
-EasyPlayer.js H5播放器，是一款能够同时支持HTTP、HTTP-FLV、HLS（m3u8）、WS、WEBRTC、FMP4视频直播与视频点播等多种协议，支持H.264、H.265、AAC等多种音视频编码格式，支持MSE、WASM、WebCodec等多种解码方式，支持Windows、Linux、Android、iOS全平台终端的H5播放器，使用简单, 功能强大。
+EasyPlayer.js H5播放器，是一款能够同时支持HTTP、HTTP-FLV、HLS（m3u8）、WS、WEBRTC、FMP4视频直播与视频点播等多种协议，支持H.264、H.265、AAC、G711A、Mp3等多种音视频编码格式，支持MSE、WASM、WebCodec等多种解码方式，支持Windows、Linux、Android、iOS全平台终端的H5播放器，使用简单, 功能强大。
 
 ## 功能说明
 - [x] 支持 MSE H264和H265硬解码;
@@ -12,7 +12,7 @@ EasyPlayer.js H5播放器，是一款能够同时支持HTTP、HTTP-FLV、HLS（m
 - [x] 支持 Mpeg4格式(H264)播放;
 - [x] 支持 HTTP-FLV/WS-FLV (H265/H265)播放;
 - [x] 支持 HTTP-FMP4/WS-FMP4 (H265/H265)播放;
-- [x] <支持 WEBRTC(easy支持H264/H265、其他流媒体支持H264)播放;
+- [x] 支持 WEBRTC(easy支持H264/H265、其他流媒体支持H264)播放;
 - [x] 支持 裸流(H264/H265) 播放;
 - [x] 支持 直播和点播播放;
 - [x] 支持 点播多清晰度播放;
