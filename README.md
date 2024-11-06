@@ -52,6 +52,8 @@ container 获取dom 节点
 | gpuDecoder |硬解码                                    | Boolean                    | false   |
 | webGPU |渲染方式                                       | Boolean                    | false   |
 | canvasRender |渲染容器                                   | Boolean                    | false   |
+| isRtcSRS |SRS类型                                   | Boolean                    | false   |
+| isRtcZLM |ZLM类型                                   | Boolean                    | false   |
 | watermark         | 水印      | Object |  {text: {content:'test',color:'',opacity:,fontSize:''},right: 0,top: 0}   |
 | fullWatermark         | 全屏水印      | Object | {content: 'test',angle:'',color:'',fontSize: '',opacity:''}   |
 | quality         | 配置清晰      | Array | ['普清', '高清', '超清', '4K', '8K']   |
