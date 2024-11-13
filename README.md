@@ -55,7 +55,7 @@ container 获取dom 节点
 | isRtcSRS |SRS类型                                   | Boolean                    | false   |
 | isRtcZLM |ZLM类型                                   | Boolean                    | false   |
 | watermark         | 水印      | Object |  {text: {content:'test',color:'',opacity:,fontSize:''},right: 0,top: 0}   |
-| fullWatermark         | 全屏水印      | Object | {content: 'test',angle:'',color:'',fontSize: '',opacity:''}   |
+| fullWatermark         | 全屏水印      | Object | {text: 'test',angle:'',color:'',fontSize: '',opacity:''}   |
 | quality         | 配置清晰      | Array | ['普清', '高清', '超清', '4K', '8K']   |
 | defaultQuality  |  默认显示的清晰度，如果不设置，会显示第一个清晰度                                    | String | -   |
 | debug | 控制台日志打印 | Boolean | false |
