@@ -45,6 +45,7 @@ container 获取dom 节点
 | poster             | 视频封面图片                                     | String                     | -      |
 | bufferTime                | 加载显设置最小缓冲时长，单位秒，播放器会自动消除延迟。       | Number                     | 1 |
 | loadTimeOut                | 视频加载超时,单位秒。    | Number                     | 10 |
+| loadTimeReplay                | 重连次数 -1为一直加载。    | Number                     | 3 |
 | MSE | MSE模式 | Boolean | fasle |
 | WCS | WCS模式 | Boolean | fasle |
 | WASM | WASM模式 | Boolean | fasle |
@@ -78,6 +79,7 @@ container 获取dom 节点
 | contextmenuClose      | 右击关闭回调    |
 | decodeHevc      | 视频编码回调    |
 | liveEnd      | 直播结束的事件    |
+| timeout      | 加载超时    |
 | recordEnd      | 录制结束的事件    |
 | recordStart      | 录制开始的事件    |
 | fullscreen | 当前是否全屏|
